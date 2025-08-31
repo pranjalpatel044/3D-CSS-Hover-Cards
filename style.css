@@ -27,9 +27,9 @@ body {
   transition: all 0.5s;
 }
 
-.one-div:hover.one-div .text {
-  scale: 1.2;
-  opacity: 0.7;
+.one-div:hover .text {
+    transform: scale(1.2);
+    opacity: 0.7;
 }
 
 .one-div:hover {
@@ -49,3 +49,4 @@ body {
     transform: rotateX(-15deg) translateY(0px);
   }
 }
+
